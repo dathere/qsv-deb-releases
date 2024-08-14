@@ -1,1 +1,1 @@
-echo "deb [signed-by=/etc/apt/trusted.gpg.d/qsv-deb.gpg] https://tin097.github.io/qsv-deb-releases ./" > qsv.list
+echo "deb [signed-by=/etc/apt/trusted.gpg.d/qsv-deb.gpg] https://tino097.github.io/qsv-deb-releases ./" > qsv.list
