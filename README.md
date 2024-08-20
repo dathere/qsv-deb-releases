@@ -4,7 +4,7 @@ This repository contains the Debian packages for the QSV <https://github.com/jqn
 
 ## Usage
 
-To use this repository, add the following file `qsv.list` to your `/etc/apt/sources.list.d`:
+To use this repository, add the following file [`qsv.list`](https://github.com/tino097/qsv-deb-releases/blob/main/qsv.list) to your `/etc/apt/sources.list.d`:
 
 or execute
 
