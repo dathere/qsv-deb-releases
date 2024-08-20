@@ -4,21 +4,11 @@ This repository contains the Debian packages for the QSV <https://github.com/jqn
 
 ## Usage
 
-To use this repository, add the following line to your `/etc/apt/sources.list`:
+To install `qsv`:
 
 ``` bash
-echo "deb [signed-by=/etc/apt/trusted.gpg.d/qsv-deb.gpg] https://tino097.github.io/qsv-deb-releases ./" > qsv.list
-```
-
-Before you can install the packages, you need to add the repository key to your trusted keys:
-
-``` bash
-wget -O - https://tino097.github.io/qsv-deb-releases/qsv-deb.gpg | sudo apt-key add -
-```
-
-After that, you can install the packages using `apt`:
-
-``` bash
+wget -O - https://tino097.github.io/qsv-deb-releases/qsv-deb.gpg | sudo gpg --dearmor -o /usr/share/keyrings/qsv-deb.gpg
+echo "deb [signed-by=/usr/share/keyrings/qsv-deb.gpg] https://tino097.github.io/qsv-deb-releases ./" | sudo tee /etc/apt/sources.list.d/qsv.list
 sudo apt update
 sudo apt install qsv
 ```
