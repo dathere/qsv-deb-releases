@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Set email variable
-EMAIL="konstantin@dathere.com"
+# Set email variable fron terminal
+EMAIL=$1
 
 
 echo "Creating Packages and Packages.gz files..."
