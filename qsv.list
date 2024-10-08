@@ -1,1 +1,1 @@
-deb [signed-by=/etc/apt/trusted.gpg.d/qsv-deb.gpg] https://tino097.github.io/qsv-deb-releases ./
+deb [signed-by=/etc/apt/trusted.gpg.d/qsv-deb.gpg] https://dathere.github.io/qsv-deb-releases ./
