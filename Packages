@@ -150,3 +150,22 @@ Description: A high performance CSV data-wrangling toolkit.
 Vcs-Browser: https://github.com/jqnatividad/qsv
 Vcs-Git: https://github.com/jqnatividad/qsv
 
+Package: qsv
+Version: 0.137.0-1
+Architecture: amd64
+Maintainer: Konstantin Sivakov <konstantin@datHere.com>
+Installed-Size: 15496
+Depends: libc6 (>= 2.34)
+Filename: ./qsv_0.137.0-1_amd64.deb
+Size: 4518144
+MD5sum: 1e1ea677aa4a698c94d564c18881dbe8
+SHA1: d4db37527048d3226508531d762f7d74c1d7f748
+SHA256: 2499915456ac230967a352d9f9d948ed371b83edf39a1a846c96fbe8a4eb8f66
+Section: utility
+Priority: optional
+Homepage: https://qsv.dathere.com
+Description: A Blazing-Fast Data-wrangling toolkit.
+ A high performance CSV data-wrangling toolkit.
+Vcs-Browser: https://github.com/jqnatividad/qsv
+Vcs-Git: https://github.com/jqnatividad/qsv
+
