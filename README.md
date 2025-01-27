@@ -1,6 +1,6 @@
 # QSV DEBIAN APT REPOSITORY
 
-This repository contains the Debian packages for the QSV <https://github.com/jqnatividad/qsv>
+This repository contains the Debian packages for the QSV <https://github.com/dathere/qsv>
 
 ## Usage
 
