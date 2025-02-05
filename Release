@@ -1,10 +1,26 @@
 Origin: QSV Repository
-Label: QSV
+Label: QSV Tools
 Suite: stable
 Codename: stable
 Version: 1.0
 Architectures: amd64
 Components: main
-Description: A Blazing-Fast Data-wrangling toolkit.
- A high performance CSV data-wrangling toolkit.
-Date: Wed, 05 Feb 2025 14:21:29 +0100
+Description: QSV - CSV Data-wrangling toolkit Repository
+Date: Wed, 05 Feb 2025 14:36:56 +0100
+Date: Wed, 05 Feb 2025 13:36:56 +0000
+MD5Sum:
+ a58d26ab5b818b429f630ababf76ca9c             5246 Packages
+ e9abfe09bc78dd2a4d7d04e86f96f9f0             1117 Packages.gz
+ b0ac4590894d98b4ab2cc0acfec8657e              254 Release
+SHA1:
+ 7f635880e8c6eb8853caf85ebf61687b03e8f943             5246 Packages
+ 57edfb165b5d977a178166f6cb8df15a466280d2             1117 Packages.gz
+ 859b2bcdad4581ddca76bc78884c7155849e5384              254 Release
+SHA256:
+ f00ffeb7f993969aed21d6eee81051fe982bf62495ed3bd121d3523bd838db09             5246 Packages
+ fad610cb40eae234709ce53cbcffca712cc119e2c595411dcf32c8873457b34e             1117 Packages.gz
+ 8e3b13a04f3d77e363c3a6657a112d8689c0f5e39c733ddd4f0814de958e78bd              254 Release
+SHA512:
+ 921b0f7f571364ed7daf93fcebdc6443bc5040494bc8742a406a15eef5dbaba17b8d79aa4327421b9578a21a23b56fef40b8363c0bf2d2f4bec89a9cfcbdd31f             5246 Packages
+ b7779365013b88b87b2699f971332e69c01e6ebea3ab8dccc844b1fdd97e67eaa0bd253c16ffcfddf00258a9066e6a4489fef39f1aaa51acfd87e3f71c9f44bd             1117 Packages.gz
+ 522b1b6e43b6b5ed2d8eddfe0a2a4fb5fcd814dc8ab4cc8f6e96837874724ada6a56722b3e0e216421a7864639ae5a71a1ec011e33b84daa6fac7144dae155db              254 Release

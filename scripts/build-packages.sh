@@ -10,6 +10,8 @@ fi
 VERSION=$1
 ARCH="amd64"
 BUILD_DIR="build"
+SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
+REPO_DIR="$(dirname "$SCRIPT_DIR")"
 
 # Function to check for errors
 check_error() {
@@ -19,25 +21,36 @@ check_error() {
     fi
 }
 
-# Clean and create build directories
+cd "$REPO_DIR"
+
 rm -rf ${BUILD_DIR}
 mkdir -p ${BUILD_DIR}/{qsv,qsvdp,qsvlite}/DEBIAN
 mkdir -p ${BUILD_DIR}/{qsv,qsvdp,qsvlite}/usr/bin/
 
-# Copy binaries (adjust paths as needed)
-cp bin/qsv ${BUILD_DIR}/qsv/usr/bin/qsv
-check_error "Failed to copy qsv binary"
+QSV_PATH="../qsv" 
+QSVDP_PATH="../qsvdp" 
+QSVLITE_PATH="../qsvlite"
 
-cp bin/qsvdp ${BUILD_DIR}/qsvdp/usr/bin/qsvdp
-check_error "Failed to copy qsvdp binary"
+if [ -f "$QSV_PATH" ]; then
+    cp "$QSV_PATH" ${BUILD_DIR}/qsv/usr/bin/qsv
+    chmod 755 ${BUILD_DIR}/qsv/usr/bin/qsv
+else
+    echo "Warning: qsv binary not found at $QSV_PATH"
+fi
 
-cp bin/qsvlite ${BUILD_DIR}/qsvlite/usr/bin/qsvlite
-check_error "Failed to copy qsvlite binary"
+if [ -f "$QSVDP_PATH" ]; then
+    cp "$QSVDP_PATH" ${BUILD_DIR}/qsvdp/usr/bin/qsvdp
+    chmod 755 ${BUILD_DIR}/qsvdp/usr/bin/qsvdp
+else
+    echo "Warning: qsvdp binary not found at $QSVDP_PATH"
+fi
 
-# Set permissions
-chmod 755 ${BUILD_DIR}/qsv/usr/bin/qsv
-chmod 755 ${BUILD_DIR}/qsvdp/usr/bin/qsvdp
-chmod 755 ${BUILD_DIR}/qsvlite/usr/bin/qsvlite
+if [ -f "$QSVLITE_PATH" ]; then
+    cp "$QSVLITE_PATH" ${BUILD_DIR}/qsvlite/usr/bin/qsvlite
+    chmod 755 ${BUILD_DIR}/qsvlite/usr/bin/qsvlite
+else
+    echo "Warning: qsvlite binary not found at $QSVLITE_PATH"
+fi
 
 # Create control files
 for pkg in qsv qsvdp qsvlite; do
@@ -80,12 +93,13 @@ done
 
 # Build the packages
 for pkg in qsv qsvdp qsvlite; do
+    echo "Building ${pkg} package..."
     dpkg-deb --build ${BUILD_DIR}/${pkg} ${pkg}_${VERSION}_${ARCH}.deb
     check_error "Failed to build ${pkg} package"
+    
+    # Create symlinks for latest versions
+    ln -sf ${pkg}_${VERSION}_${ARCH}.deb ${pkg}.deb
 done
-
-# Clean up
-rm -rf ${BUILD_DIR}
 
 echo "Packages built successfully!"
 echo 
@@ -93,7 +107,7 @@ echo "Built packages:"
 ls -l *.deb
 echo
 echo "Next steps:"
-echo "1. Update the repository: ./update-repo.sh <your-gpg-email>"
+echo "1. Run the update release script: ./scripts/update-release.sh <your-gpg-email>"
 echo "2. Test installation:"
 echo "   sudo apt install qsv"
 echo "   sudo apt install qsvdp"
