@@ -11,4 +11,6 @@ wget -O - https://dathere.github.io/qsv-deb-releases/qsv-deb.gpg | sudo gpg --de
 echo "deb [signed-by=/usr/share/keyrings/qsv-deb.gpg] https://dathere.github.io/qsv-deb-releases ./" | sudo tee /etc/apt/sources.list.d/qsv.list
 sudo apt update
 sudo apt install qsv
+sudo apt install qsv-datapusher-plus
+sudo apt install qsv-lite
 ```
