@@ -2,30 +2,120 @@ Package: qsv
 Version: 2.2.1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 16
+Installed-Size: 19393
 Depends: libc6 (>= 2.34)
-Filename: ./qsv_2.2.1_amd64.deb
-Size: 646
-MD5sum: ad70442dbbe5f7e34bbdbe5fa9c9f82e
-SHA1: a307b0c289f775a323a337e0077c67995b471170
-SHA256: f0accafbbbd75d213abd9dfa400951c76d379efbbefaa859b0b98c389002c193
+Filename: ./qsv.deb
+Size: 4972592
+MD5sum: 53b6a8146c4809f1a8085aed9fa8cad4
+SHA1: 3c13af70a4c6c8843f0b7c85c713a14bac683ccd
+SHA256: 30b3d361351a79e432f500988783ddf3514a80a299aae2ce267dce2b00eb2877
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
 Description: A Blazing-Fast Data-wrangling toolkit (Standard version).
  A high performance CSV data-wrangling toolkit.
 
+Package: qsv
+Version: 2.2.1
+Architecture: amd64
+Maintainer: Konstantin Sivakov <konstantin@datHere.com>
+Installed-Size: 19393
+Depends: libc6 (>= 2.34)
+Filename: ./qsv_2.2.1_amd64.deb
+Size: 4972592
+MD5sum: 53b6a8146c4809f1a8085aed9fa8cad4
+SHA1: 3c13af70a4c6c8843f0b7c85c713a14bac683ccd
+SHA256: 30b3d361351a79e432f500988783ddf3514a80a299aae2ce267dce2b00eb2877
+Section: utility
+Priority: optional
+Homepage: https://qsv.dathere.com
+Description: A Blazing-Fast Data-wrangling toolkit (Standard version).
+ A high performance CSV data-wrangling toolkit.
+
+Package: qsv
+Version: 2.2.1-1
+Architecture: amd64
+Maintainer: Konstantin Sivakov <konstantin@datHere.com>
+Installed-Size: 19393
+Depends: libc6 (>= 2.34)
+Conflicts: qsv-dp, qsv-lite
+Filename: ./qsv_2.2.1-1_amd64.deb
+Size: 656
+MD5sum: f9467593dfddc295a671fa788e3879ed
+SHA1: 1fba859be7e88d43db9d50c87a021a02b22bf014
+SHA256: dedf1f978ee5a81805d272431c47440fb1de4b2dc037eb4ed305b13dfab67c3e
+Section: utility
+Priority: optional
+Homepage: https://qsv.dathere.com
+Description: A Blazing-Fast Data-wrangling toolkit.
+ A high performance CSV data-wrangling toolkit.
+
+Package: qsv-dp
+Version: 2.2.1-1
+Architecture: amd64
+Maintainer: Konstantin Sivakov <konstantin@datHere.com>
+Installed-Size: 19599
+Depends: libc6 (>= 2.34), libstdc++6 (>= 11)
+Conflicts: qsv, qsv-lite
+Provides: qsvdp
+Filename: ./qsv-dp_2.2.1-1_amd64.deb
+Size: 712
+MD5sum: 8c585ef07b6c9412ebd0e85cfbbad6af
+SHA1: 9d000607a33851e019da00b1b9b2a235020dbf63
+SHA256: 42c4d7317a4b3deccb5210392458779f17b1450b7c45702a22151dd53b914da8
+Section: utility
+Priority: optional
+Homepage: https://qsv.dathere.com
+Description: A Blazing-Fast Data-wrangling toolkit (DataPusher version).
+ A high performance CSV data-wrangling toolkit with additional DataPusher features.
+
+Package: qsv-lite
+Version: 2.2.1-1
+Architecture: amd64
+Maintainer: Konstantin Sivakov <konstantin@datHere.com>
+Installed-Size: 15081
+Depends: libc6 (>= 2.34)
+Conflicts: qsv, qsv-dp
+Provides: qsvlite
+Filename: ./qsv-lite_2.2.1-1_amd64.deb
+Size: 698
+MD5sum: 8e19dbb92430478092847a98a4784eb6
+SHA1: f098caed9519ed18b7804050e1be56fcd871b3f2
+SHA256: 2455acba4c2ae6b9a43fc295e75db5df517479da842155b30ed4e53536b7df58
+Section: utility
+Priority: optional
+Homepage: https://qsv.dathere.com
+Description: A Blazing-Fast Data-wrangling toolkit (Lite version).
+ A lightweight version of the high performance CSV data-wrangling toolkit.
+
 Package: qsvdp
 Version: 2.2.1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 16
+Installed-Size: 19599
 Depends: libc6 (>= 2.34), libstdc++6 (>= 11)
 Filename: ./qsvdp.deb
-Size: 662
-MD5sum: 87204a0bd2e72684af0624e3fc781cac
-SHA1: 5b4be9d9b4c499ab8d2f41b4c009bc1a0878bcfb
-SHA256: e239b5f3024940e73e7d6c3a19c250e1dc9e5ec4c006120dc7315317f950d4fa
+Size: 4231730
+MD5sum: 3aa6009fa4d5b4d21a55ec4e66baf4b6
+SHA1: eb90695646d94b85a5f41217e4440f054d55caaa
+SHA256: f3ec5e327262b5d85e91ea164b30037c5495b84a8c5b4e0c6716ef206f330230
+Section: utility
+Priority: optional
+Homepage: https://qsv.dathere.com
+Description: A Blazing-Fast Data-wrangling toolkit (DataPusher version).
+ A high performance CSV data-wrangling toolkit.
+
+Package: qsvdp
+Version: 2.2.1
+Architecture: amd64
+Maintainer: Konstantin Sivakov <konstantin@datHere.com>
+Installed-Size: 19599
+Depends: libc6 (>= 2.34), libstdc++6 (>= 11)
+Filename: ./qsvdp_2.2.1_amd64.deb
+Size: 4231730
+MD5sum: 3aa6009fa4d5b4d21a55ec4e66baf4b6
+SHA1: eb90695646d94b85a5f41217e4440f054d55caaa
+SHA256: f3ec5e327262b5d85e91ea164b30037c5495b84a8c5b4e0c6716ef206f330230
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -36,13 +126,30 @@ Package: qsvlite
 Version: 2.2.1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 16
+Installed-Size: 15081
 Depends: libc6 (>= 2.34)
 Filename: ./qsvlite_2.2.1_amd64.deb
-Size: 648
-MD5sum: 7c6e24e1805608ce4e3e67f88f3492b9
-SHA1: 6e7ce1f59edb6974f58dd5e81f478992d0d1dcc9
-SHA256: 5bf4ded8f9bb2b54d795e4f6995c08f66a2b3d716750f513e265c7573b7a901f
+Size: 4969806
+MD5sum: cd87a3a2c7f219c4dafdbed44499b458
+SHA1: bf803982046425057ba1027d88bf583d38fc6ef6
+SHA256: b0571fbb734a3edf8c24b36ad41dcb1eb5cf21b11ef84ede03ff6259dd3a2460
+Section: utility
+Priority: optional
+Homepage: https://qsv.dathere.com
+Description: A Blazing-Fast Data-wrangling toolkit (Lite version).
+ A high performance CSV data-wrangling toolkit.
+
+Package: qsvlite
+Version: 2.2.1
+Architecture: amd64
+Maintainer: Konstantin Sivakov <konstantin@datHere.com>
+Installed-Size: 15081
+Depends: libc6 (>= 2.34)
+Filename: ./qsvlite.deb
+Size: 4969806
+MD5sum: cd87a3a2c7f219c4dafdbed44499b458
+SHA1: bf803982046425057ba1027d88bf583d38fc6ef6
+SHA256: b0571fbb734a3edf8c24b36ad41dcb1eb5cf21b11ef84ede03ff6259dd3a2460
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
