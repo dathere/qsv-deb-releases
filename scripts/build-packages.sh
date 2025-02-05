@@ -82,7 +82,6 @@ Architecture: ${ARCH}
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
 Installed-Size: ${SIZE}
 Depends: ${DEPS}
-Conflicts: ${CONFLICTS}
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
