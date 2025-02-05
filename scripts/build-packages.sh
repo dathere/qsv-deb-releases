@@ -82,7 +82,6 @@ Architecture: ${ARCH}
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
 Installed-Size: ${SIZE}
 Depends: ${DEPS}
-Conflicts: ${CONFLICTS}
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -100,6 +99,8 @@ for pkg in qsv qsvdp qsvlite; do
     # Create symlinks for latest versions
     ln -sf ${pkg}_${VERSION}_${ARCH}.deb ${pkg}.deb
 done
+
+rm -rf ${BUILD_DIR}
 
 echo "Packages built successfully!"
 echo 
