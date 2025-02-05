@@ -89,7 +89,7 @@ for pkg in qsv qsvdp qsvlite; do
 done
 
 # Generate Packages file
-dpkg-scanpackages . /dev/null > Packages
+dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
 
 # Clean up
