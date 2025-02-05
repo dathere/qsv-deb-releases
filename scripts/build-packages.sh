@@ -100,6 +100,8 @@ for pkg in qsv qsvdp qsvlite; do
     ln -sf ${pkg}_${VERSION}_${ARCH}.deb ${pkg}.deb
 done
 
+rm -rf ${BUILD_DIR}
+
 echo "Packages built successfully!"
 echo 
 echo "Built packages:"
