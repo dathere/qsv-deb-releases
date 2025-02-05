@@ -5,10 +5,10 @@ Maintainer: Konstantin Sivakov <konstantin@datHere.com>
 Installed-Size: 19393
 Depends: libc6 (>= 2.34)
 Filename: ./qsv.deb
-Size: 4972606
-MD5sum: fc02fada0641fae6228920c7ee177a6f
-SHA1: a8bd2b35654665fe32217bdab890bc2a796e7de5
-SHA256: 09e35b7d15e1bf2f3cd607143916a8bc16e9c581f261db937cbb0f2d2b9963cc
+Size: 4972592
+MD5sum: ab4a0f0027b1144fabfe561a698523e4
+SHA1: f4ea6d560d484e5574782831c95f8dea63b4ef73
+SHA256: dd744cbc30a77c1af00529ac33a546859da003ee36497097f73ae0f73a7f3564
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -22,10 +22,10 @@ Maintainer: Konstantin Sivakov <konstantin@datHere.com>
 Installed-Size: 19393
 Depends: libc6 (>= 2.34)
 Filename: ./qsv_2.2.1_amd64.deb
-Size: 4972606
-MD5sum: fc02fada0641fae6228920c7ee177a6f
-SHA1: a8bd2b35654665fe32217bdab890bc2a796e7de5
-SHA256: 09e35b7d15e1bf2f3cd607143916a8bc16e9c581f261db937cbb0f2d2b9963cc
+Size: 4972592
+MD5sum: ab4a0f0027b1144fabfe561a698523e4
+SHA1: f4ea6d560d484e5574782831c95f8dea63b4ef73
+SHA256: dd744cbc30a77c1af00529ac33a546859da003ee36497097f73ae0f73a7f3564
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -39,10 +39,10 @@ Maintainer: Konstantin Sivakov <konstantin@datHere.com>
 Installed-Size: 19599
 Depends: libc6 (>= 2.34), libstdc++6 (>= 11)
 Filename: ./qsvdp.deb
-Size: 4231736
-MD5sum: 76bc0f1c4375dbda8d88e51995fd2011
-SHA1: 3551c26f009c6c9394a3017e3487f68f5a720bdd
-SHA256: 624b2fd9334d04f5277cf93167d12a02205db3451ceac9cb4616d0167540a80a
+Size: 4231728
+MD5sum: b52ca3e90a1d8dfc1739e6bf543818a3
+SHA1: 12889b939b7466e97f32283e63e0edcb2f1ceb0c
+SHA256: e887fa1259c0bbae30b1008d361fbb819ca17769f5d1c9e6558322d7ba9136ae
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -56,10 +56,10 @@ Maintainer: Konstantin Sivakov <konstantin@datHere.com>
 Installed-Size: 19599
 Depends: libc6 (>= 2.34), libstdc++6 (>= 11)
 Filename: ./qsvdp_2.2.1_amd64.deb
-Size: 4231736
-MD5sum: 76bc0f1c4375dbda8d88e51995fd2011
-SHA1: 3551c26f009c6c9394a3017e3487f68f5a720bdd
-SHA256: 624b2fd9334d04f5277cf93167d12a02205db3451ceac9cb4616d0167540a80a
+Size: 4231728
+MD5sum: b52ca3e90a1d8dfc1739e6bf543818a3
+SHA1: 12889b939b7466e97f32283e63e0edcb2f1ceb0c
+SHA256: e887fa1259c0bbae30b1008d361fbb819ca17769f5d1c9e6558322d7ba9136ae
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -73,10 +73,10 @@ Maintainer: Konstantin Sivakov <konstantin@datHere.com>
 Installed-Size: 15081
 Depends: libc6 (>= 2.34)
 Filename: ./qsvlite_2.2.1_amd64.deb
-Size: 4969804
-MD5sum: 22a306a7fb0b471a46d4542f31b29557
-SHA1: b4b2bef76eb87038e985816209091483161ff965
-SHA256: 0bcf2817ae9b996b363e0bb3bf3a9a1084a1f713f731f18f5de402c256ab6c62
+Size: 4969796
+MD5sum: be60b879d76045b8954468ce78ad88f0
+SHA1: 386dc7347d9404e0bcee7176d181e18e2d5404d2
+SHA256: 669aced5d85f3a19c611f031eedb2bf439aaf27ad5d838939ea35a0de6d0a1f7
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -90,10 +90,10 @@ Maintainer: Konstantin Sivakov <konstantin@datHere.com>
 Installed-Size: 15081
 Depends: libc6 (>= 2.34)
 Filename: ./qsvlite.deb
-Size: 4969804
-MD5sum: 22a306a7fb0b471a46d4542f31b29557
-SHA1: b4b2bef76eb87038e985816209091483161ff965
-SHA256: 0bcf2817ae9b996b363e0bb3bf3a9a1084a1f713f731f18f5de402c256ab6c62
+Size: 4969796
+MD5sum: be60b879d76045b8954468ce78ad88f0
+SHA1: 386dc7347d9404e0bcee7176d181e18e2d5404d2
+SHA256: 669aced5d85f3a19c611f031eedb2bf439aaf27ad5d838939ea35a0de6d0a1f7
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
