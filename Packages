@@ -15,16 +15,16 @@ Description: A Blazing-Fast Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
 Package: qsv
-Version: 3.3.0-1
+Version: 4.0.0-1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 19719
-Depends: libc6 (>= 2.34)
+Installed-Size: 19889
+Depends: libc6 (>= 2.34), liblzma5 (>= 5.1.1alpha+20120614)
 Filename: ./qsv.deb
-Size: 5133408
-MD5sum: 5657713c6d9a0717c8f828382ec739bb
-SHA1: a76e81e9fc2514bdfc616ee169bf55df913753ff
-SHA256: 3236a86464a0a028d4e908398855145941f0744668733d540b0b48587f4b6519
+Size: 5185212
+MD5sum: 535db28ae2e8e510aabcfa2cbb5cb4da
+SHA1: 62fa014053d2f33f594c3aead7b4c3f848201c71
+SHA256: 2bee2ef980ffe2f2ceca76831ec227c644c8bd551a36582040f7501eae257ea3
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -32,16 +32,16 @@ Description: A Blazing-Fast Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
 Package: qsv-datapusher-plus
-Version: 3.3.0-1
+Version: 4.0.0-1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 19978
-Depends: libc6 (>= 2.34), libstdc++6 (>= 11)
+Installed-Size: 20095
+Depends: libc6 (>= 2.34), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 11)
 Filename: ./qsvdp.deb
-Size: 5244456
-MD5sum: 1248d5209419b946e472a1e90952a5ed
-SHA1: 4d21881e06b8b80b2bb96dcfa15b3ab186886a93
-SHA256: ce456d0765fbf635e00869d99069f3be8e9d2fa89aaf15af302f0ea53871fdbc
+Size: 5296596
+MD5sum: 4a9650daf8d1f8caedc1ddd8e665eb04
+SHA1: eb5f7c5fe9e4a9d918116f13eb0b6d7482cf58b8
+SHA256: fa1fb9d51b7ae0ce757d2b9d0ef72fb9655e184364fbd1a91eab336d31abd1de
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -49,16 +49,16 @@ Description: A Blazing-Fast Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
 Package: qsv-lite
-Version: 3.3.0-1
+Version: 4.0.0-1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 15351
-Depends: libc6 (>= 2.34)
+Installed-Size: 15513
+Depends: libc6 (>= 2.34), liblzma5 (>= 5.1.1alpha+20120614)
 Filename: ./qsvlite.deb
-Size: 4594064
-MD5sum: 45c7ef5d903985fb81b82769dd71abcb
-SHA1: c8da77968e4c7ac3dc6063508eeed7bada919b2a
-SHA256: 5ebeca0f84a05eef02727f8203ee87fde8c846f34a4f3fa7977a30cb2edc4585
+Size: 4646412
+MD5sum: 9998ef1221d8bc1764a3aba6bca6e7d4
+SHA1: a38c5ed079322a9e54833278d651e32486166502
+SHA256: af848c5a52a51c25bf994cace5f2a5c9b5902e9daf9390f62ca0ae48104b1897
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
