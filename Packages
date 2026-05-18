@@ -15,16 +15,16 @@ Description: A Blazing-Fast Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
 Package: qsv
-Version: 20.0.0-1
+Version: 20.1.0-1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 27361
+Installed-Size: 27633
 Depends: libc6 (>= 2.34)
 Filename: ./qsv.deb
-Size: 7199780
-MD5sum: f3cde6d945f691a358af6cca677550c0
-SHA1: f2db0e536a360203fa6b3307d233bdfdbf14e202
-SHA256: c9c994c25225ef50117a3881667562ca34a057debd27fe9f5999fee0c276f773
+Size: 7297892
+MD5sum: f03154637bd7ad0afee0ea0539ee9ef7
+SHA1: 99686de13043c0170e99453cb1e77058184ca85d
+SHA256: 49bc907903af94999afdacd0d381262983a6171a07b9766b9ba450a4fd409934
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -32,16 +32,16 @@ Description: A Blazing-Fast Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
 Package: qsv-datapusher-plus
-Version: 20.0.0-1
+Version: 20.1.0-1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 28210
+Installed-Size: 28592
 Depends: libc6 (>= 2.34), libstdc++6 (>= 11)
 Filename: ./qsvdp.deb
-Size: 7525536
-MD5sum: aa9bad037a744a035bec89d05885b6d0
-SHA1: 4046cb53d4da9a3a1b1b46e122a85673ad06bb0a
-SHA256: 073a8f68a2eddf331a4b5d08fd86b31ce9eec484cc7a058bf88ed23cabafce52
+Size: 7660012
+MD5sum: 4b5e746fae1e2d5072f047be400ce5d1
+SHA1: 199ce7ad67f3888e9a4c4d24df0eb0a420ae74ff
+SHA256: 7ae2987780e668a65d6dbac496631e26162076c06770333e0413e9d65083f9b3
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
@@ -49,16 +49,16 @@ Description: A Blazing-Fast Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
 Package: qsv-lite
-Version: 20.0.0-1
+Version: 20.1.0-1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 26952
+Installed-Size: 27215
 Depends: libc6 (>= 2.34)
 Filename: ./qsvlite.deb
-Size: 7075972
-MD5sum: 375320cc1ef438b688c6945ffe7f02cb
-SHA1: 3c94fccfb91d89e5115e11304c912bddf7ef840a
-SHA256: 0fe49ca27354323f47f58cf5239e1fa6b22e4152024a2564722777f858235382
+Size: 7166656
+MD5sum: a06beacfb00350e5a35384aeaab98eda
+SHA1: 04dd7276e2816e3a25a4b01cc919e8a4f2ae8ea0
+SHA256: 08e504423372d800cc204b458d8c8056b20280610a48bf036e2bcb2f75e594b8
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
