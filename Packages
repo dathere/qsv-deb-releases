@@ -15,53 +15,53 @@ Description: A Blazing-Fast Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
 Package: qsv
-Version: 26.0.0-1
+Version: 27.0.0-1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 26776
+Installed-Size: 27975
 Depends: libc6 (>= 2.34)
 Filename: ./qsv.deb
-Size: 7516008
-MD5sum: d0442e9227213393b556f8188672ed49
-SHA1: b1b115011d3bd1ec77b3708ef31f801a1ef138c2
-SHA256: 86ff16972aeb1989be36eaaf1de939f2e78b05d0c9b87919896cbf22ea64230b
+Size: 7874688
+MD5sum: 4ad1670044c793a8872f553124b535fb
+SHA1: 1a8fd4fef991010a2cfbfce11cd03c8cfb14c3bc
+SHA256: 8fa5b3a67187d71d9488ab75f341282fee78b336847a6a61e6ced2428864e681
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
-Description: A Blazing-Fast Data-wrangling toolkit.
+Description: A Blazing-Fast Neuro-symbolic Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
 Package: qsv-datapusher-plus
-Version: 26.0.0-1
+Version: 27.0.0-1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 104751
+Installed-Size: 96165
 Depends: libc6 (>= 2.34)
 Filename: ./qsvdp.deb
-Size: 23775152
-MD5sum: a174d3279594b3c8a8b0590f9b7efc66
-SHA1: 3155a31e8c0fab46b6ea3768d6a17b880322e54e
-SHA256: 9abbd5d134a33dccce53e55d6d85c29ad55f27f353ae4e849943f37e1c1df8f2
+Size: 23449156
+MD5sum: b422b5a4792b2292cffa612fe0218287
+SHA1: 9d5925227fc52bfdd0ec7d0afa2bf87d9bc99114
+SHA256: b0ba219170e7af015ec85acb4686799f1bea9f892473210c3279abd72aaf5ae9
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
-Description: A Blazing-Fast Data-wrangling toolkit.
+Description: A Blazing-Fast Neuro-symbolic Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
 Package: qsv-lite
-Version: 26.0.0-1
+Version: 27.0.0-1
 Architecture: amd64
 Maintainer: Konstantin Sivakov <konstantin@datHere.com>
-Installed-Size: 22335
+Installed-Size: 22692
 Depends: libc6 (>= 2.34)
 Filename: ./qsvlite.deb
-Size: 6163624
-MD5sum: 5dd70e3263efe87e7e6beee6e5325947
-SHA1: 7117d53d7e674526edd0a4506c3e26f759abe0b9
-SHA256: 79764db6e72b68400b167ff1077f7a8b22aaeeabefc22d8bacdd0a70d1c9db6f
+Size: 6259340
+MD5sum: ca229caca6073228f5365c624be1b1af
+SHA1: 1e354632be75575c4df26c970f71e42eba7f32b3
+SHA256: 59bf2dcd28ad4b0ee2d0d742d8f319392ff68d9fed66a427ad8d6aa5c760375c
 Section: utility
 Priority: optional
 Homepage: https://qsv.dathere.com
-Description: A Blazing-Fast Data-wrangling toolkit.
+Description: A Blazing-Fast Neuro-symbolic Data-wrangling toolkit.
  A high performance CSV data-wrangling toolkit.
 
